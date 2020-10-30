@@ -1479,5 +1479,60 @@ a.item_add p.number {
 }
 }
 
+.sticky {
+  position: fixed;
+top: 0;
+width: 100%;
 
+background-color: #fff;
+-webkit-box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
+-moz-box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
+box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
+z-index: 99;
 
+}
+.banner{
+margin-top: 90px !important;
+}
+.roll{
+   box-shadow: 0px 10px 16px 0px rgba(235, 54, 86, 0.65);
+}
+.ss1{
+  color:#fff;
+}
+ss2{
+  color:#fff; margin-top: 10px; margin-bottom: 10px;
+}
+.ss3{
+  padding-top:30px;
+}
+.ss4{
+  color:#fff; padding-bottom:20px;
+}
+.ss5{
+  padding-top:30px;
+}
+.ss6{
+  margin-top:20px;  margin-bottom:20px;
+}
+.som1{
+  margin-top: 100px; margin-bottom: 30px;
+}
+.som2{
+  margin-left: 200px;
+}
+.som3{
+  padding-top:30px; padding-bottom:20px;
+}
+.som4{
+  padding-bottom:20px;
+}
+.bb1{
+  background-color: #FFC0CB; padding-top: 130px; padding-bottom: 30px;
+}
+.bb2{
+  padding-top:30px !important; font-size:24px !important;
+}
+.bb3{
+  padding-top:30px;
+}
