@@ -23,7 +23,7 @@
 	<body>
 
 		<!--=================TOP NAV BAR========================-->
-		<div class="container">
+		<div class="container" id="nav-bar">
 			<div class="head-top">
 				<div class="logo">
 					<h1><a href="index.html">Mattress</a></h1>
@@ -32,7 +32,7 @@
 					<ul class="memenu skyblue">	
 						<li><a class="color1 " href="index.html">HOME</a>
 						<li class="grid"><a class="color2 " href="#">PRODUCTS</a>
-							<div class="mepanel" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);">
+							<div class="mepanel roll" >
 								<div class="row">
 									<div class="col1">
 										<div class="h_nav">
@@ -95,39 +95,34 @@
 			</div>
 		</div>
 	</div>
+	
+	<script src="js/scroll.js"></script>
+	
 
 	<!--===================BANNER============================-->
 	<div class="banner">
 		<div class="container">
 			  <script src="js/responsiveslides.min.js"></script>
-			<script>
-				$(function () {
-				$("#slider").responsiveSlides({
-					auto: true,
-					nav: true,
-					speed: 500,
-					namespace: "callbacks",
-					pager: true,
-				});
-				});
+			<script src="js/new.js">
+				
 			</script>
 			<div  id="top" class="callbacks_container">
 				<ul class="rslides" id="slider">
 			    	<li>
 						<div class="banner-text">
-							<h3 style="color:#fff;">HEADING OF THE TEXT  1  </h3>
+							<h3 class="ss1">HEADING OF THE TEXT  1  </h3>
 							<p>--------------------------------SOME TEXT--------------------------------------<br>--------------------------------------------</p>
 						</div>
 			    	</li>
 					<li>
 						<div class="banner-text">
-							<h3 style="color:#fff;">HEADING OF THE TEXT 2 </h3>
+							<h3 class="ss1">HEADING OF THE TEXT 2 </h3>
 							<p>------------------------SOME TEXT--------------------------------------------<br>-----------------------------------------------</p>
 						</div>
 					</li>
 					<li>
-						<div class="banner-text">
-							<h3 style="color:#fff;">HEADING OF TEXT 3</h3>
+						<div class="banner-text ">
+							<h3 class="ss1 ">HEADING OF TEXT 3</h3>
 							<p>----------------------------SOME TEXT--------------------------------------<br>-------------------------------------------------</p>
 						</div>
 					</li>
@@ -143,32 +138,32 @@
 				<div class="content-top-bottom">
 					<h2>Featured PRODUCTS</h2>
 					<div class="col-md-6 men">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/t1.jpg" alt="">
+						<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll" ><img class="img-responsive" src="images/t1.jpg" alt="">
 							<div class="b-wrapper">
-								<h3 class="b-animate b-from-top top-in   b-delay03 "><span><b style="color:#fff;">TRIBECA LIVING</b></span></h3>
+								<h3 class="b-animate b-from-top top-in   b-delay03 "><span><b class="ss1">TRIBECA LIVING</b></span></h3>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6">
 						<div class="col-md1 ">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"  style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/t2.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll" ><img class="img-responsive" src="images/t2.jpg" alt="">
 								<div class="b-wrapper">
-									<h3 class="b-animate b-from-top top-in1   b-delay03 "><span><b style="color:#fff;">CLARISSA</b></span></h3>
+									<h3 class="b-animate b-from-top top-in1   b-delay03 "><span><b class="ss1">CLARISSA</b></span></h3>
 							    </div>
 							</a>
 						</div>
 						<div class="col-md2">
 							<div class="col-md-6 men1">
-								<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/t3.jpg" alt="">
+								<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll"><img class="img-responsive" src="images/t3.jpg" alt="">
 										<div class="b-wrapper">
-												<h3 class="b-animate b-from-top top-in2   b-delay03 "><span><b style="color:#fff;">COLORMATE</b></span></h3>
+												<h3 class="b-animate b-from-top top-in2   b-delay03 "><span><b class="ss1">COLORMATE</b></span></h3>
 										</div>
 								</a>
 							</div>
 							<div class="col-md-6 men2">
-								<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/t4.jpg" alt="">
+								<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll"><img class="img-responsive" src="images/t4.jpg" alt="">
 										<div class="b-wrapper">
-												<h3 class="b-animate b-from-top top-in2   b-delay03 "><span><b style="color:#fff;">HERLEQUIN</b></span></h3>
+												<h3 class="b-animate b-from-top top-in2   b-delay03 "><span><b class="ss1">HERLEQUIN</b></span></h3>
 										</div>
 								</a>
 							</div>
@@ -181,10 +176,10 @@
 					<h1>NEW PRODUCTS</h1>
 					<div class="grid-in">
 						<div class="col-md-3 grid-top simpleCart_shelfItem">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/pi.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll"><img class="img-responsive" src="images/pi.jpg" alt="">
 								<div class="b-wrapper">
 									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span><b style="color:#fff;">TRIBECA LIVING</b></span>
+										<span><b class="ss1">TRIBECA LIVING</b></span>
 										
 									</h3>
 								</div>
@@ -193,27 +188,27 @@
 							<a href="#" class="item_add"><p class="number item_price">&#8377; 500.00</p></a>
 						</div>
 						<div class="col-md-3 grid-top simpleCart_shelfItem">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/pi1.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll" ><img class="img-responsive" src="images/pi1.jpg" alt="">
 								<div class="b-wrapper">
-										<h3 class="b-animate b-from-left    b-delay03 "><span><b style="color:#fff;">ESSENTIAL</b></span></h3>
+										<h3 class="b-animate b-from-left    b-delay03 "><span><b class="ss1">ESSENTIAL</b></span></h3>
 								</div>
 							</a>
 							<p><a href="single.html">ESSENTIAL</a></p>
 							<a href="#" class="item_add"><p class="number item_price">&#8377; 500.00</p></a>
 						</div>
 						<div class="col-md-3 grid-top simpleCart_shelfItem">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/pi2.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox roll" ><img class="img-responsive" src="images/pi2.jpg" alt="">
 								<div class="b-wrapper">
-											<h3 class="b-animate b-from-left    b-delay03 "><span><b style="color:#fff;">CLARISSA</b></span></h3>
+											<h3 class="b-animate b-from-left    b-delay03 "><span><b class="ss1">CLARISSA</b></span></h3>
 								</div>
 							</a>
 						<p><a href="single.html">CLARISSA</a></p>
 						<a href="#" class="item_add"><p class="number item_price">&#8377; 500.00</p></a>
 						</div>
 						<div class="col-md-3 grid-top">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox" style=" box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);"><img class="img-responsive" src="images/pi4.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox  roll" ><img class="img-responsive" src="images/pi4.jpg" alt="">
 								<div class="b-wrapper">
-										<h3 class="b-animate b-from-left    b-delay03 "><span><b style="color:#fff;">LITTLE HOME</b></span></h3>
+										<h3 class="b-animate b-from-left    b-delay03 "><span><b class="ss1">LITTLE HOME</b></span></h3>
 								</div>
 							</a>
 							<p><a href="single.html">LITTLE HOME</a></p>
@@ -250,37 +245,37 @@
 								</a>
 								<ul class="footer-info">
 									<li>
-										<div class="single-info" style="color:#fff;">
+										<div class="single-info ss1" >
 											<div class="info-icon">
 												<i class="lni-phone-handset"></i>
 											</div>
 											<div class="info-content" >
-												<p style="color:#fff;">+0000 000 000 000</p>
+												<p class="ss1">+0000 000 000 000</p>
 											</div>
 										</div> <!-- single info -->
 									</li>
 									<li>
-										<div class="single-info" style="color:#fff;">
+										<div class="single-info ss1">
 											<div class="info-icon">
 												<i class="lni-envelope"></i>
 											</div>
 											<div class="info-content">
-												<p style="color:#fff;">username@gmail.com</p>
+												<p class="ss1">username@gmail.com</p>
 											</div>
 										</div> <!-- single info -->
 									</li>
 									<li>
-										<div class="single-info" style="color:#fff;">
+										<div class="single-info ss1">
 											<div class="info-icon">
 												<i class="lni-map"></i>
 											</div>
 											<div class="info-content">
-												<p style="color:#fff;">ADDRESS</p>
+												<p class="ss1">ADDRESS</p>
 											</div>
 										</div> <!-- single info -->
 									</li>
 								</ul>
-								<ul class="footer-social mt-20" style="margin-top:20px;  margin-bottom:20px;">
+								<ul class="footer-social mt-20 ss6" >
 									<li><a href="#"><i class="lni-facebook-filled"></i></a></li>
 									<li><a href="#"><i class="lni-twitter-original"></i></a></li>
 									<li><a href="#"><i class="lni-google"></i></a></li>
@@ -290,23 +285,23 @@
 							</div> <!-- footer logo -->
 						</div>
 						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="footer-link mt-45"  style="padding-top:30px;">
+							<div class="footer-link mt-45 ss5"  >
 								<div class="f-title">
-									<h4 class="title" style="color:#fff; padding-bottom:20px;">MORE INFO</h4>
+									<h4 class="title ss4" >MORE INFO</h4>
 								</div>
 								<ul class="mt-15">
-									<li><a href="#" style="color:#fff;">How to order</a></li>
-									<li><a href="#" style="color:#fff;">Shipping</a></li>
-									<li><a href="#" style="color:#fff;">Membership</a></li>
+									<li><a href="#" class="ss1">How to order</a></li>
+									<li><a href="#" class="ss1">Shipping</a></li>
+									<li><a href="#" class="ss1">Membership</a></li>
 								</ul>
 							</div>
 						</div>					
 						<div class="col-lg-6 col-md-5 col-sm-8">
-							<div class="footer-newsleter mt-45" style="padding-top:30px;">
+							<div class="footer-newsleter mt-45 ss3" >
 								<div class="f-title">
-									<h4 class="title" style="color:#fff;">NEWSLETTER</h4>
+									<h4 class="title ss1" >NEWSLETTER</h4>
 								</div>
-								<p class="mt-15" style="color:#fff; margin-top: 10px; margin-bottom: 10px;">Subscribe to our newletter to get the recent updates</p>
+								<p class="mt-15 ss2" >Subscribe to our newletter to get the recent updates</p>
 								<form action="#">
 									<div class="newsleter mt-20">
 										<input type="email" placeholder="info@contact.com" required="">
